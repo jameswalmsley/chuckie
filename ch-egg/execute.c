@@ -67,7 +67,8 @@ extern FILE * hfile;
 
 void execute(void)
 {
-  int duration, timeleft;
+	int duration;
+	//int timeleft;
 /*goto m29AB;
 
 m29AB:*/
@@ -232,7 +233,7 @@ m2A05:
   LDA_ZEROP(0x3D)
   BNE(m2A2B)
 
-  timeleft = 0; /* Reset total duration counter for applause */
+	  //timeleft = 0; /* Reset total duration counter for applause */
 m2A09:
   LDA_IMMED(0x01)
   LDX_IMMED(0x06)
