@@ -8,7 +8,7 @@ TOOLCHAIN=
 
 include $(BASE).dbuild/dbuild.mk
 
-CFLAGS += -Wall -O3 -I/usr/include/SDL
+CFLAGS += -Wall -O3 -I/usr/include/SDL -I.
 
 all: chuckie
 	$(Q)$(SIZE) chuckie
